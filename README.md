@@ -3,13 +3,14 @@
 ## Installation
 
 ```
-Pkg.clone("https://github.com/zmactep/ProtParam.jl.git")
+Pkg.add(url="https://github.com/zmactep/ProtParam.jl.git")
 ```
 
 ## Usage
 
 ```
 using ProtParam
+using BioSequences
 
 rituximab = aa"QVQLQQPGAELVKPGASVKMSCKASGYTFTSYNMHWVKQTPGRGLEWIGAYPGNGDTSYNQKFKGKATLTADKSSSTAYMQLSSLTSEDSAVYYCARSTYYGGDWYFNVWAGTTVTVSA"
 protparam(rituximab)
